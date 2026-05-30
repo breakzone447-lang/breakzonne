@@ -1,0 +1,78 @@
+@media  screen and (max-width: 768px) {
+    
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+ 
+    
+    .menu{
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 50%;
+        background-color: #0f172a;
+        padding: 10px 0;
+        border-top: 2px solid #c20b0c;
+        z-index: 999;
+    }
+    .menu.aberto{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu a{
+        padding: 14px 25px;
+        font-size: 16px;
+        white-space: nowrap;
+        border-bottom: 1px solid rgb(194,11,12,0.2);
+    }
+
+    .slider{
+        height: 220px;
+    }
+
+    .btn-prev, .btn-next{
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    .info-area {
+    width: 95%;
+}
+
+.text-area h2 {
+    font-size: 22px;
+}
+
+.text-area p {
+    font-size: 14px;
+}
+.jogadores-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+.videos-grid {
+    grid-template-columns: 1fr;
+}
+
+.footer-brand {
+    font-size: 18px;
+}
+
+.footer-texto {
+    font-size: 13px;
+}
+
+.page-header h1{
+    font-size: 26px;
+}
+.stats-grid {
+    grid-template-columns: 1fr;
+}
+
+
+}
+
+
+
